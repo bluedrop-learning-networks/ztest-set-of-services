@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "ztest-set-of-services-api",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": "^12.0.0",
+    "npm": "^6.4.1"
+  },
+  "scripts": {
+    "lint": "echo lint",
+    "test": "npm run lint && npm run test:coverage",
+    "test:unit": "echo unit test",
+    "test:coverage": "echo coverage test"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "lodash.get": "^4.4.2"
+  },
+  "devDependencies": {}
+}
